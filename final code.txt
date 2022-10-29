@@ -1,0 +1,9 @@
+ string y;
+        y=s;
+        reverse(y.begin(),y.end());
+        for(int i=0;i<s.size();i++)
+            if(s[i]==y[i])
+        return true;
+        else
+            return false;
+    }
